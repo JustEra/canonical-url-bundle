@@ -1,5 +1,5 @@
 {
-    "name": "camelot/canonical-url-bundle",
+    "name": "justera/canonical-url-bundle",
     "type": "symfony-bundle",
     "description": "Canonical URL Symfony bundle",
     "license": "MIT",
@@ -15,10 +15,10 @@
     ],
     "require": {
         "php": "^7.4",
-        "symfony/dependency-injection": "^4.3 || ^5.0",
-        "symfony/config": "^4.3 || ^5.0",
-        "symfony/routing": "^4.3 || ^5.0",
-        "symfony/http-kernel": "^4.3 || ^5.0",
+        "symfony/dependency-injection": "^4.3 || ^5.2",
+        "symfony/config": "^4.3 || ^5.2",
+        "symfony/routing": "^4.3 || ^5.2",
+        "symfony/http-kernel": "^4.3 || ^5.2",
         "twig/twig": "^2.0 || ^3.0"
     },
     "autoload": {
@@ -36,9 +36,9 @@
         "friendsofphp/php-cs-fixer": "^2.16",
         "phpunit/phpunit": "^8.4",
         "psalm/plugin-phpunit": "^0.7",
-        "symfony/browser-kit": "^4.3 || ^5.0",
-        "symfony/phpunit-bridge": "^4.3.4 || ^5.0",
-        "symfony/yaml": "^4.3 || ^5.0",
+        "symfony/browser-kit": "^4.3 || ^5.2",
+        "symfony/phpunit-bridge": "^4.3.4 || ^5.2",
+        "symfony/yaml": "^4.3 || ^5.2",
         "vimeo/psalm": "^3.7"
     },
     "scripts": {
